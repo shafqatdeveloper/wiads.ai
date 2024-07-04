@@ -66,8 +66,8 @@ const Header = () => {
       <div
         className={
           isMobileMenuOpen
-            ? "absolute top-16 left-0 w-full bg-blue-600 border-t transition-all duration-300 border-gray-200 lg:hidden"
-            : "absolute top-16 left-[-100%] w-full bg-blue-600 border-t transition-all duration-300 border-gray-200 lg:hidden"
+            ? "absolute top-16 left-0 w-full bg-blue-600 border-t transition-all duration-300 border-gray-200 lg:hidden z-40"
+            : "absolute top-16 left-[-100%] w-full bg-blue-600 border-t transition-all duration-300 border-gray-200 lg:hidden z-40"
         }
       >
         <nav className="">
